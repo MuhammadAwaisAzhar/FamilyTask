@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.7.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClientPortal.Common\ClientPortal.Common.csproj" />
+    <ProjectReference Include="..\ClientPortal.Data\ClientPortal.Data.csproj" />
+    <ProjectReference Include="..\ClientPortal.Entity\ClientPortal.Entities.csproj" />
+    <ProjectReference Include="..\ClientPortal.Mapper\ClientPortal.Mapper.csproj" />
+    <ProjectReference Include="..\ClientPortal.Models\ClientPortal.Models.csproj" />
+    <ProjectReference Include="..\ClientPortal.Services\ClientPortal.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
