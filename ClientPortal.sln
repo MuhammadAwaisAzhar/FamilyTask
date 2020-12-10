@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientPortal.Services", "Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientPortal.Mapper", "ClientPortal.Mapper\ClientPortal.Mapper.csproj", "{59B9D8A4-FD76-4DBA-A88B-BEA24D5D755D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientPortal.Tests", "ClientPortal.Tests\ClientPortal.Tests.csproj", "{2C7727F0-7E1D-4CEB-AD90-73FAE3E0B528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientPortal.Tests", "ClientPortal.Tests\ClientPortal.Tests.csproj", "{2C7727F0-7E1D-4CEB-AD90-73FAE3E0B528}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
